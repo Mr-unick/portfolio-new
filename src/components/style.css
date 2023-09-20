@@ -1,0 +1,25 @@
+#landing-page{
+    
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 9%, rgba(239,234,255,1) 29%, rgba(88,77,249,1) 100%);
+}
+
+#projects{
+   background-color: #edf2f9;
+}
+
+#intro{
+  
+}
+#nav{
+    background: rgba(255, 255, 255, 0.08);
+position: fixed;
+z-index: 99999;
+top: 0;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+}
