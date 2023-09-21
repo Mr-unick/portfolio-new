@@ -5,14 +5,16 @@ import 'aos/dist/aos.css';
 
 export const Intro = (props) => {
   return(
-    <div id='intro' class="flex  justify-center items-center flex-col p-4 my-10 bg-gray-100 ">
-        <h1 class=" font-bold text-5xl w-[600px] justify-center items-center my-5" >The <span class="text-blue-700 text-5xl ">Creative Mind</span> Behind Your Next <span class="text-blue-700 ">Project</span></h1>
+    <div id='intro' class="flex  justify-center items-center flex-col p-4 my-10  ">
+        <span class=" font-bold text-4xl flex justify-center items-center my-5 flex-wrap" >
+          <span>The</span> <span class="text-blue-700 mx-2 ">Creative Mind</span>
+           <span>Behind Your Next </span><span class="text-blue-700 ">Project</span></span>
 
         <div class="flex flex-wrap justify-center items-center p-4 "  >
         {
             intro.map(intro=>{
                 return(
-                    <div className="w-[220px] md:[250px] rounded-md  m-5 hover:cursor-pointer "  data-aos="fade-up" >
+                    <div className="w-[270px] md:[220px] rounded-md  m-5 hover:cursor-pointer "  data-aos="fade-up" >
                     <img
                       src={intro.image}
                       alt="Laptop"

@@ -8,14 +8,14 @@
 }
 
 #projects{
-   background-color: #edf2f9;
+  
 }
 
 #intro{
   
 }
 #nav{
-    background: rgba(255, 255, 255, 0.08);
+background: rgba(255, 255, 255, 0.08);
 position: fixed;
 z-index: 99999;
 top: 0;

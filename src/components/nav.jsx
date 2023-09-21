@@ -8,7 +8,7 @@ export const NavBar= (props) => {
         setclass("h-[80px] ")
     }
   return(
-    <div id="nav" class="h-[50px]  w-fullbackdrop-blur-lg w-full  bg-opacity-50 bg-white absolute top-0 left-0 flex justify-between">
+    <div id="nav" class="h-[50px]  w-screen flex justify-between bg-black fixed top-0">
         <button>logo</button>
         <button>menu</button>
     </div>
