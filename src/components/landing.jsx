@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import Text from './text';
+
 import 'animate.css';
 import Typewriter from "typewriter-effect";
 
