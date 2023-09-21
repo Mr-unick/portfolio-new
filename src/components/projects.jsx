@@ -15,14 +15,14 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
 
   return(
     <div id="projects" class=" flex justify-center items-center flex-col  p-2 bg-gray-100" >
-     <span class="text-4xl font-extrabold mt-7 flex justify-center items-center flex-wrap"><span>My Creative</span> <span class="text-blue-700 mx-2">Portfolio</span> <span>Section</span></span>
+     <span class="text-4xl font-extrabold mt-7 flex justify-center items-center flex-wrap" data-aos="fade-up"><span>My Creative</span> <span class="text-blue-700 mx-2">Portfolio</span> <span>Section</span></span>
 
-<div className="box text-white flex justify-center items-center flex-wrap py-8 px-5">
-  <button className='rounded-full bg-slate-600 px-5 py-1 m-2' onClick={()=>setkey("React")}>React</button>
-  <button className='rounded-full bg-slate-600 px-5 py-1 m-2' onClick={()=>setkey("React Native")}>React Native</button>
-  <button className='rounded-full bg-slate-600 px-5 py-1 m-2' onClick={()=>setkey("Frontend")}>Frontend</button>
-  <button className='rounded-full bg-slate-600 px-5 py-1 m-2' onClick={()=>setkey("MERN")}>MERN</button>
-  <button className='rounded-full bg-slate-600 px-5 py-1 m-2 active:bg-black' onClick={()=>setkey("")}>All</button>
+<div className="box text-white flex justify-center items-center flex-wrap py-8 px-5" data-aos="fade-up">
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("React")}>React</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("React Native")}>Android</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("Frontend")}>Frontend</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("MERN")}>MERN</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2 active:bg-black' onClick={()=>setkey("")}>All</button>
 </div>
 <div class=" flex justify-center items-center flex-wrap">
 
