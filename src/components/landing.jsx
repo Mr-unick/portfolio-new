@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
   
   return(
     <div id="landing-page" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full bg-gray-100  ">
-      <div id="top" class="flex justify-center items-center flex-col   ">
+      <div id="top" class="flex justify-center items-center flex-col ">
     
               <span class="animate__animated animate__backInLeft text-2xl font-extrabold md:text-4xl">HEY, I'M NIKHIL LENDE</span>
               <div class="animate__animated animate__backInRight px-4 text-3xl text-blue-700 font-bold mt-2">
