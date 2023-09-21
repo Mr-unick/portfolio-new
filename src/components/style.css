@@ -3,17 +3,10 @@
     background-size: cover;
     height: 600px;
     background-position: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 9%, rgba(239,234,255,1) 29%, rgba(88,77,249,1) 100%);
+   
 }
 
-#projects{
-  
-}
 
-#intro{
-  
-}
 #nav{
 background: rgba(255, 255, 255, 0.08);
 position: fixed;
