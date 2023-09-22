@@ -12,7 +12,7 @@ import Typewriter from "typewriter-effect";
       <div id="top" class="flex justify-center items-start md:items-center flex-col h-96 p-10 ">
     
               <span class="animate__animated animate__backInLeft text-5xl  font-extrabold md:text-4xl">HEY, I'M NIKHIL LENDE</span>
-              <div class="animate__animated animate__backInRight  text-2xl md:text-3xl text-blue-700 font-bold mt-2 w-full flex justify-center md:items-start items-center   ">
+              <div class="animate__animated animate__backInRight  text-2xl md:text-3xl text-blue-700 font-bold mt-2 w-full flex  items-start md:justify-center   ">
                           <Typewriter
                           options={{
                             loop: true, // Enable infinite loop
