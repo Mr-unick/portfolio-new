@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Cont = (props) => {
   return(
-    <div class=" w-full flex justify-center items-center flex-col p-8">
+    <div id="contact" class=" w-full flex justify-center items-center flex-col p-8">
       <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up"><span>Lets Have A </span><span class="text-blue-700 mx-2">Cofee</span></span>
       <div id="cont-form " class="flex justify-center items-center flex-col text-sm font-normal">
       <input class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-gray-100 rounded-lg outline-none m-2" type="text" name="name" placeholder="Name" data-aos="fade-up"/>
