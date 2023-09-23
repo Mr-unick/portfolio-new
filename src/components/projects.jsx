@@ -32,11 +32,11 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
             
               <div className="w-[300px]  border m-5 bg-white rounded-2xl p-3 " data-aos="fade-up">
               <img
-                src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                src={project.image}
                 alt="Laptop"
-                className="h-[200px] w-full  object-cover rounded-2xl" 
+                className="h-[200px] w-full  object-cover rounded-2xl " 
               />
-              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-6 left-[82px] flex justify-center items-center" > {project.type} </div>
+              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[27px] left-[82px] flex justify-center items-center" > {project.type} </div>
               <div className="p-4" data-aos="fade-up" >
                 <h1 className="inline-flex items-center text-lg font-semibold" >
                   {project.projectName} &nbsp; 

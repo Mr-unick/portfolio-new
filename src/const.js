@@ -3,6 +3,7 @@ export const projects = [
   {
     projectName: "DEVSPACE (SOCIAL MEDIA APPLICATION)",
     type: "Fullstack",
+    image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
     link: "https://example.com/devspace",
     technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
@@ -11,13 +12,15 @@ export const projects = [
   {
     projectName: "NOTESAPP (CRUD)",
     type: "Mern",
+    image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
     link: "https://example.com/notesapp",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "HTML", "CSS"],
     className: "project-card",
   },
   {
-    projectName: "FAKESTORE (E-COMMERCE) | Live",
+    projectName: "FAKESTORE ",
+    image:"projects/fake.png",
     type: "React",
     description: "Features include product display, cart functionality, Wishlist management, and order placement.",
     link: "https://example.com/fakestore",
@@ -35,14 +38,16 @@ export const projects = [
   {
     projectName: "Food Delivery App",
     type: "Android",
+    image:"projects/food.png",
     description: "Technologies include React Native, Redux, and Tailwind CSS.",
     link: "https://example.com/food-delivery",
     technologies: ["React Native", "Redux", "Tailwind CSS"],
     className: "project-card",
   },
   {
-    projectName: "Name-it | Live",
+    projectName: "Name-it ",
     type: "React",
+    image:"projects/name.png",
     description: "Technologies used are HTML, CSS, and React.",
     link: "https://example.com/name-it",
     technologies: ["HTML", "CSS", "React"],
@@ -51,6 +56,7 @@ export const projects = [
   {
     projectName: "Crypto Tracker | Live",
     type: "Frontend",
+    image:"projects/crypto.png",
     description: "The project utilizes HTML, CSS, and JavaScript for development.",
     link: "https://example.com/crypto-tracker",
     technologies: ["HTML", "CSS", "JavaScript"],
