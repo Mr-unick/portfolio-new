@@ -8,9 +8,9 @@ import { useEffect } from 'react'
 
 import { Intro } from '@/components/intro';
 import { Projects } from '@/components/projects';
-
-import { Cont } from '@/components/contact';
 import Nav from '@/components/nav';
+import ContactForm from '@/components/form';
+import { Footer } from '@/components/footer';
 
 
 
@@ -24,9 +24,9 @@ export default function Home() {
    <Nav/>
     <Landing/>
     <Intro/>
-   
  <Projects/>
- <Cont/>
+<ContactForm/>
+<Footer/>
     </div>
   )
 }
