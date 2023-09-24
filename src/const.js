@@ -7,7 +7,7 @@ export const projects = [
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
     link: "https://example.com/devspace",
     technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
-    className: "project-card",
+   
   },
   {
     projectName: "NOTESAPP (CRUD)",
@@ -16,7 +16,7 @@ export const projects = [
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
     link: "https://example.com/notesapp",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "HTML", "CSS"],
-    className: "project-card",
+  
   },
   {
     projectName: "FAKESTORE ",
@@ -25,7 +25,7 @@ export const projects = [
     description: "Features include product display, cart functionality, Wishlist management, and order placement.",
     link: "https://example.com/fakestore",
     technologies: ["API", "React.js", "Redux", "Axios", "HTML", "CSS"],
-    className: "project-card",
+    
   },
   {
     projectName: "PORTFOLIO",
@@ -42,7 +42,7 @@ export const projects = [
     description: "Technologies include React Native, Redux, and Tailwind CSS.",
     link: "https://example.com/food-delivery",
     technologies: ["React Native", "Redux", "Tailwind CSS"],
-    className: "project-card",
+  
   },
   {
     projectName: "Name-it ",
@@ -51,7 +51,7 @@ export const projects = [
     description: "Technologies used are HTML, CSS, and React.",
     link: "https://example.com/name-it",
     technologies: ["HTML", "CSS", "React"],
-    className: "project-card",
+   
   },
   {
     projectName: "Crypto Tracker",
@@ -60,7 +60,7 @@ export const projects = [
     description: "The project utilizes HTML, CSS, and JavaScript for development.",
     link: "https://example.com/crypto-tracker",
     technologies: ["HTML", "CSS", "JavaScript"],
-    className: "project-card",
+   
   },
   {
     projectName: "Weather App",
@@ -68,7 +68,7 @@ export const projects = [
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
     technologies: ["React.js", "HTML", "CSS"],
-    className: "project-card",
+    
 
   },
   {
@@ -78,8 +78,7 @@ export const projects = [
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
     technologies: [ "HTML", "CSS","MERN",],
-    className: "project-card",
-
+   
   },
   {
     projectName: "Chat App",
@@ -88,7 +87,7 @@ export const projects = [
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
     technologies: [ "HTML", "CSS","MERN","socket.io"],
-    className: "project-card",
+    
 
   },
 ];
