@@ -11,6 +11,7 @@ import { Projects } from '@/components/projects';
 import Nav from '@/components/nav';
 import ContactForm from '@/components/form';
 import { Footer } from '@/components/footer';
+import { Skills } from '@/components/skills';
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
     <Landing/>
     <Intro/>
  <Projects/>
+ <Skills/>
 <ContactForm/>
 <Footer/>
     </div>

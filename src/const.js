@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     projectName: "PORTFOLIO",
-    image:"projects/fake.png",
+    image:"projects/port.png",
     type: "React",
     description: "Technologies used include React.js, HTML, and CSS.",
     link: "https://example.com/portfolio",
@@ -92,6 +92,16 @@ export const projects = [
     
 
   },
+  {
+    projectName: "FastType",
+    type: "React",
+    image:"projects/fast.png",
+    description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
+    link: "https://login-client-brown.vercel.app/login",
+    technologies: [ "HTML", "CSS","React"],
+    
+
+  },
 ];
 
   
@@ -118,3 +128,17 @@ export const projects = [
     }
   ]
   
+  export const Skillsdata=[
+    {
+      "image": "skills/cc.svg",
+      "skill": "Programming"
+    },
+    {
+      "image": "skills/cc.svg",
+      "skill": "Programming"
+    },
+    {
+      "image": "skills/cc.svg",
+      "skill": "Programming"
+    },
+  ]

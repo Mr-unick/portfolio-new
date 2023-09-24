@@ -34,9 +34,9 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
               <img
                 src={project.image}
                 alt="Laptop"
-                className="h-[200px] w-full  object-cover rounded-2xl " 
+                className="h-[200px] w-full  object-cover rounded-2xl shadow-inner" 
               />
-              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[27px] left-[82px] flex justify-center items-center" > {project.type} </div>
+              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[27px] left-[82px] flex justify-center items-center  " > {project.type} </div>
               <div className="p-4" data-aos="fade-up" >
                 <h1 className="inline-flex items-center text-lg font-semibold" >
                   {project.projectName} &nbsp; 
