@@ -128,17 +128,75 @@ export const projects = [
     }
   ]
   
-  export const Skillsdata=[
+  export const Skillsdata= [
     {
-      "image": "skills/cc.svg",
-      "skill": "Programming"
+        "image": "skills/cc.svg",
+        "skill": "C"
     },
     {
-      "image": "skills/cc.svg",
-      "skill": "Programming"
+        "image": "skills/cpp.svg",
+        "skill": "C++"
     },
     {
-      "image": "skills/cc.svg",
-      "skill": "Programming"
+        "image": "skills/java.svg",
+        "skill": "java"
     },
-  ]
+    {
+        "image": "skills/js.svg",
+        "skill": "Javascript"
+    },
+    {
+        "image": "skills/py.svg",
+        "skill": "Python"
+    },
+    {
+        "image": "skills/html.svg",
+        "skill": "HTML5"
+    },
+    {
+        "image": "skills/tailwindcss-icon.svg",
+        "skill": "Tailwindcss"
+    },
+    {
+      "image": "skills/ui.svg",
+      "skill": "Material UI"
+  },
+      {
+        "image": "skills/css.svg",
+        "skill": "CSS"
+    },
+    
+    {
+        "image": "skills/rec.svg",
+        "skill": "React"
+    },
+    {
+        "image": "skills/redux.svg",
+        "skill": "Redux"
+    },
+    {
+        "image": "skills/rec.svg",
+        "skill": "React Native"
+    },
+    {
+        "image": "skills/no.svg",
+        "skill": "NodeJS"
+    },
+    {
+      "image": "skills/exx.svg",
+      "skill": "ExpressJs"
+  },
+    {
+      "image": "skills/socketio-icon.svg",
+      "skill":"Socket.io"
+    },
+    {
+      "image": "skills/mon.svg",
+      "skill": "MongoDB"
+  },
+  {
+    "image": "skills/mysql-icon.svg",
+    "skill": "MySQL"
+}
+];
+

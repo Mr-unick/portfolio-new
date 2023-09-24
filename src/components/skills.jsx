@@ -12,8 +12,8 @@ export const Skills = (props) => {
    {
     Skillsdata.map(skill=>{
         return(
-            <div id="card" class="flex justify-center items-center flex-col bg-slate-400 w-28 p-4 m-2">
-                <img src={skill.image} class="rounded-full" />
+            <div id="card" class="flex justify-center items-center flex-col md:w-36 w-24  p-4 m-2" data-aos="fade-up">
+                <img src={skill.image} class=" md:h-[100px] md:w-[100px] w-[50px] h-[50px] m-2" />
                 <span>{skill.skill}</span>
             </div>
         )
