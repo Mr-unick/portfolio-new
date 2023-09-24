@@ -3,7 +3,7 @@ export const projects = [
   {
     projectName: "DEVSPACE",
     type: "Fullstack",
-    image:"projects/fake.png",
+    image:"projects/devspace.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
     link: "https://example.com/devspace",
     technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
@@ -66,9 +66,9 @@ export const projects = [
   {
     projectName: "Weather App",
     type: "React",
-    image:"projects/fake.png",
+    image:"projects/weather.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
-    link: "https://login-client-brown.vercel.app/login",
+    link: "https://weather-app-orpin-delta.vercel.app/",
     technologies: ["React.js", "HTML", "CSS"],
     
 

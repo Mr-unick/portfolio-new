@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
  const Landing = (props) => {
   
   return(
-    <div id="landing-page" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full bg-gray-100 h-[800px] ">
+    <div id="landing" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full bg-gray-100 h-[800px] ">
       <div id="top" class="flex justify-center items-start md:items-center flex-col h-96 p-6 ">
     
               <span class="animate__animated animate__backInLeft text-5xl  font-extrabold md:text-4xl">HEY, I'M NIKHIL LENDE</span>
@@ -46,7 +46,7 @@ import Typewriter from "typewriter-effect";
               </div>
     
      <div id="image" class="w-full  flex justify-center items-center  ">
-         <img src="images/bg.png" class="  w-[600px]  h-[300px] md:h-[400px] " />
+         <img src="images/bg.png" class="  w-[600px]  h-[300px] md:h-[400px]  " />
      </div>
     </div>
    )

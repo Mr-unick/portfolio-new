@@ -1,5 +1,8 @@
 
-
+#landing{
+  background-image: url("../../public/images/lay.svg");
+  background-size: cover;
+}
 .nav{
 background: rgba(255, 255, 255, 0.08);
 position: fixed;
