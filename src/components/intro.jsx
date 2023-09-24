@@ -14,7 +14,7 @@ export const Intro = (props) => {
         {
             intro.map(intro=>{
                 return(
-                    <div className="w-[270px] md:[220px] rounded-md  m-5 hover:cursor-pointer "  data-aos="fade-up" >
+                    <div className=" md:w-[210px] w-[270px] rounded-md  m-5 mx-10 hover:cursor-pointer "  data-aos="fade-up" >
                     <img
                       src={intro.image}
                       alt="Laptop"
