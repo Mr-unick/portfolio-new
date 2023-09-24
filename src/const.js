@@ -29,6 +29,7 @@ export const projects = [
   },
   {
     projectName: "PORTFOLIO",
+    image:"projects/fake.png",
     type: "React",
     description: "Technologies used include React.js, HTML, and CSS.",
     link: "https://example.com/portfolio",
@@ -65,6 +66,7 @@ export const projects = [
   {
     projectName: "Weather App",
     type: "React",
+    image:"projects/fake.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
     technologies: ["React.js", "HTML", "CSS"],
