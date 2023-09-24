@@ -31,11 +31,15 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
             return(
             
               <div className="w-[300px]  border m-5 bg-white rounded-2xl p-3 " data-aos="fade-up">
+              <div class="w-full h-full rounded-3xl bg-black ">
+              <a href={project.link}>
               <img
                 src={project.image}
                 alt="Laptop"
-                className="h-[200px] w-full  object-cover rounded-2xl shadow-inner" 
+                className="h-[200px] w-full rounded-2xl  object-cover shadow-inner hover:opacity-70 cursor-pointer" 
               />
+              </a>
+              </div>
               <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[27px] left-[82px] flex justify-center items-center  " > {project.type} </div>
               <div className="p-4" data-aos="fade-up" >
                 <h1 className="inline-flex items-center text-lg font-semibold" >

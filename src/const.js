@@ -1,7 +1,7 @@
 
 export const projects = [
   {
-    projectName: "DEVSPACE )",
+    projectName: "DEVSPACE",
     type: "Fullstack",
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
@@ -10,7 +10,7 @@ export const projects = [
    
   },
   {
-    projectName: "NOTESAPP (CRUD)",
+    projectName: "NOTESAPP",
     type: "Mern",
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
@@ -76,7 +76,7 @@ export const projects = [
   {
     projectName: "Login System",
     type: "MERN",
-    image:"projects/crypto.png",
+    image:"projects/login.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
     technologies: [ "HTML", "CSS","MERN",],
