@@ -1,7 +1,7 @@
 
 export const projects = [
   {
-    projectName: "DEVSPACE (SOCIAL MEDIA APPLICATION)",
+    projectName: "DEVSPACE )",
     type: "Fullstack",
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
@@ -54,7 +54,7 @@ export const projects = [
     className: "project-card",
   },
   {
-    projectName: "Crypto Tracker | Live",
+    projectName: "Crypto Tracker",
     type: "Frontend",
     image:"projects/crypto.png",
     description: "The project utilizes HTML, CSS, and JavaScript for development.",
@@ -66,9 +66,30 @@ export const projects = [
     projectName: "Weather App",
     type: "React",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
-    link: "https://example.com/weather-app",
+    link: "https://login-client-brown.vercel.app/login",
     technologies: ["React.js", "HTML", "CSS"],
     className: "project-card",
+
+  },
+  {
+    projectName: "Login System",
+    type: "MERN",
+    image:"projects/crypto.png",
+    description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
+    link: "https://login-client-brown.vercel.app/login",
+    technologies: [ "HTML", "CSS","MERN",],
+    className: "project-card",
+
+  },
+  {
+    projectName: "Chat App",
+    type: "MERN",
+    image:"projects/chat.png",
+    description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
+    link: "https://login-client-brown.vercel.app/login",
+    technologies: [ "HTML", "CSS","MERN","socket.io"],
+    className: "project-card",
+
   },
 ];
 
