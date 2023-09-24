@@ -13,7 +13,7 @@ function ContactForm() {
       </div>;
   }
   return (
-    <div class="flex flex-col justify-center items-center p-10">
+    <div class="flex flex-col justify-center items-center p-10 bg-gray-100">
         <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
             <span>Lets Have A </span><span class="text-blue-700 mx-2">Cofee</span></span>
     
@@ -24,7 +24,7 @@ function ContactForm() {
             id="name"
             type="text" 
             name="name"
-            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-gray-100 rounded-lg outline-none m-2"
+            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white rounded-lg outline-none m-2"
             placeholder='Enter Name'
         />
         <ValidationError 
@@ -36,7 +36,7 @@ function ContactForm() {
             id="email"
             type="email" 
             name="email"
-            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-gray-100 rounded-lg outline-none m-2"
+            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white rounded-lg outline-none m-2"
             placeholder='Enter Email'
         />
         <ValidationError 
@@ -47,7 +47,7 @@ function ContactForm() {
         <textarea
             id="message"
             name="message"
-            class="m-2 rounded-lg  w-[320px] h-[200px] md:w-[420px]  px-2 py-4 outline-0 bg-gray-100 resize-none"
+            class="m-2 rounded-lg  w-[320px] h-[200px] md:w-[420px]  px-2 py-4 outline-0 bg-white resize-none"
             placeholder='Type Something'
         />
         <ValidationError 
