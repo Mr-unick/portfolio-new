@@ -1,23 +1,6 @@
 
 export const projects = [
-  {
-    projectName: "DEVSPACE",
-    type: "Fullstack",
-    image:"projects/devspace.png",
-    description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
-    link: "https://example.com/devspace",
-    technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
-   
-  },
-  {
-    projectName: "NOTESAPP",
-    type: "Mern",
-    image:"projects/fake.png",
-    description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
-    link: "https://example.com/notesapp",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "HTML", "CSS"],
   
-  },
   {
     projectName: "FAKESTORE ",
     image:"projects/fake.png",
@@ -33,7 +16,7 @@ export const projects = [
     type: "React",
     description: "Technologies used include React.js, HTML, and CSS.",
     link: "https://example.com/portfolio",
-    technologies: ["React.js", "HTML", "CSS"],
+    technologies: ["React", "HTML", "CSS"],
    
   },
   {
@@ -42,7 +25,7 @@ export const projects = [
     image:"projects/food.png",
     description: "Technologies include React Native, Redux, and Tailwind CSS.",
     link: "https://example.com/food-delivery",
-    technologies: ["React Native", "Redux", "Tailwind CSS"],
+    technologies: ["React Native", "Redux", "Tailwind CSS","Android"],
   
   },
   {
@@ -69,7 +52,7 @@ export const projects = [
     image:"projects/weather.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://weather-app-orpin-delta.vercel.app/",
-    technologies: ["React.js", "HTML", "CSS"],
+    technologies: ["React.js", "HTML", "CSS","React"],
     
 
   },
@@ -79,7 +62,7 @@ export const projects = [
     image:"projects/login.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
-    technologies: [ "HTML", "CSS","MERN",],
+    technologies: [ "HTML", "CSS","MERN",,"React"],
    
   },
   {
@@ -88,7 +71,7 @@ export const projects = [
     image:"projects/chat.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://login-client-brown.vercel.app/login",
-    technologies: [ "HTML", "CSS","MERN","socket.io"],
+    technologies: [ "HTML", "CSS","MERN","socket.io","React"],
     
 
   },
@@ -102,6 +85,33 @@ export const projects = [
     
 
   },
+  {
+    projectName: "DEVSPACE",
+    type: "Fullstack",
+    image:"projects/devspace.png",
+    description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
+    link: "https://example.com/devspace",
+    technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
+   
+  },
+  {
+    projectName: "QUIZ",
+    type: "React",
+    image:"projects/quiz.png",
+    description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
+    link: "https://example.com/notesapp",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS"],
+  
+  },
+  {
+    projectName: "NOTESAPP",
+    type: "Mern",
+    image:"projects/fake.png",
+    description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
+    link: "https://example.com/notesapp",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS"],
+  
+  },
 ];
 
   
@@ -113,7 +123,7 @@ export const projects = [
     },
     {
       "role": "React Native Developer",
-      "description": "Specializes in building web applications using the React JavaScript library. Develops reusable components, manages state, and integrates with backend services.",
+      "description": "Specializes in building Android Applications using the React Native. Develops reusable components, manages state, and integrates with backend services.",
       "image": "images/android.jpg"
     },
     {
@@ -128,75 +138,100 @@ export const projects = [
     }
   ]
   
-  export const Skillsdata= [
+  export const Skillsdata=[
     {
-        "image": "skills/cc.svg",
-        "skill": "C"
+        "categoryName": "Core languages",
+        "skills": [
+            {
+                "skillName": "C",
+                "skillData": "skills/cc.svg"
+            },
+            {
+                "skillName": "C++",
+                "skillData": "skills/cpp.svg"
+            },
+            {
+                "skillName": "Java",
+                "skillData": "skills/java.svg"
+            },
+            {
+                "skillName": "JavaScript",
+                "skillData": "skills/js.svg"
+            },
+            {
+                "skillName": "Python",
+                "skillData": "skills/py.svg"
+            }
+        ]
     },
     {
-        "image": "skills/cpp.svg",
-        "skill": "C++"
+        "categoryName": "Frontend Technologies",
+        "skills": [
+            {
+                "skillName": "HTML5",
+                "skillData": "skills/html.svg"
+            },
+            {
+                "skillName": "CSS",
+                "skillData": "skills/css.svg"
+            },
+            {
+                "skillName": "Tailwind CSS",
+                "skillData": "skills/tailwindcss-icon.svg"
+            },
+            {
+                "skillName": "Material UI",
+                "skillData": "skills/ui.svg"
+            },
+            {
+                "skillName": "React",
+                "skillData": "skills/rec.svg"
+            },
+            {
+                "skillName": "Redux",
+                "skillData": "skills/redux.svg"
+            },
+            {
+              "skillName": "NextJs",
+              "skillData": "skills/next.svg"
+            },
+            {
+              "skillName": "React Native",
+              "skillData": "skills/native.svg"
+            }
+        ]
     },
     {
-        "image": "skills/java.svg",
-        "skill": "java"
+        "categoryName": "BackEnd Technologies",
+        "skills": [
+            {
+                "skillName": "Node.js",
+                "skillData": "skills/no.svg"
+            },
+            {
+                "skillName": "Express.js",
+                "skillData": "skills/exx.svg"
+            },
+            {
+                "skillName": "Socket.io",
+                "skillData": "skills/socketio-icon.svg"
+            }
+        ]
     },
     {
-        "image": "skills/js.svg",
-        "skill": "Javascript"
-    },
-    {
-        "image": "skills/py.svg",
-        "skill": "Python"
-    },
-    {
-        "image": "skills/html.svg",
-        "skill": "HTML5"
-    },
-    {
-        "image": "skills/tailwindcss-icon.svg",
-        "skill": "Tailwindcss"
-    },
-    {
-      "image": "skills/ui.svg",
-      "skill": "Material UI"
-  },
-      {
-        "image": "skills/css.svg",
-        "skill": "CSS"
-    },
-    
-    {
-        "image": "skills/rec.svg",
-        "skill": "React"
-    },
-    {
-        "image": "skills/redux.svg",
-        "skill": "Redux"
-    },
-    {
-        "image": "skills/rec.svg",
-        "skill": "React Native"
-    },
-    {
-        "image": "skills/no.svg",
-        "skill": "NodeJS"
-    },
-    {
-      "image": "skills/exx.svg",
-      "skill": "ExpressJs"
-  },
-    {
-      "image": "skills/socketio-icon.svg",
-      "skill":"Socket.io"
-    },
-    {
-      "image": "skills/mon.svg",
-      "skill": "MongoDB"
-  },
-  {
-    "image": "skills/mysql-icon.svg",
-    "skill": "MySQL"
-}
-];
+        "categoryName": "Databases",
+        "skills": [
+            {
+                "skillName": "MongoDB",
+                "skillData": "skills/mon.svg"
+            },
+            {
+                "skillName": "MySQL",
+                "skillData": "skills/mysql-icon.svg"
+            }
+        ]
+    }
+]
+
+
 

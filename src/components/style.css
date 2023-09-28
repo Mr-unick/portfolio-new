@@ -1,4 +1,8 @@
-
+#landing{
+  background-image: url("../../public/Curve\ Line.svg");
+  background-size: cover;
+  background-position: center;
+}
 
 .nav{
 background: rgba(255, 255, 255, 0.08);
