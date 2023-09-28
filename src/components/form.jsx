@@ -13,7 +13,7 @@ function ContactForm() {
       </div>;
   }
   return (
-    <div class="flex flex-col justify-center items-center p-10 bg-gray-100">
+    <div id="contact" class="flex flex-col justify-center items-center p-10 bg-gray-100 w-screen h-scrren">
         <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
             <span>Lets Have A </span><span class="text-blue-700 mx-2">Cofee</span></span>
     

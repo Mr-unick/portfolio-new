@@ -26,7 +26,7 @@ const Nav = () => {
                   }}
             >
                 <div    class="w-full h-full  flex items-center justify-center flex-col  bg-gray-100">
-                    <a class="m-2" href='#landing-page'onClick={toggleDrawer}>Home</a>
+                    <a class="m-2" href='#landing'onClick={toggleDrawer}>Home</a>
                     <a class="m-2" href='#projects' onClick={toggleDrawer}>Projects</a>
                     <a class="m-2" href='#skills' onClick={toggleDrawer}>Skills</a>
                     <a class="m-2" href='#contact' onClick={toggleDrawer}>Contact</a>
