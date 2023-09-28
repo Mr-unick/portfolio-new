@@ -7,7 +7,7 @@ export const projects = [
     type: "React",
     description: "Features include product display, cart functionality, Wishlist management, and order placement.",
     link: "http://mr-unick.github.io/fakestore",
-    technologies: ["API", "React.js", "Redux", "Axios", "HTML", "CSS"],
+    technologies: ["API", "React.js", "Redux", "Axios", "HTML", "CSS","Frontend"],
     
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     type: "React",
     description: "Technologies used include React.js, HTML, and CSS.",
     link: "http://mr-unick.github.io/portfolio",
-    technologies: ["React", "HTML", "CSS"],
+    technologies: ["React", "HTML", "CSS","Frontend"],
    
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     image:"projects/name.png",
     description: "Technologies used are HTML, CSS, and React.",
     link: "https://mr-unick.github.io/name-it/",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS", "React","Frontend"],
    
   },
   {
@@ -43,7 +43,7 @@ export const projects = [
     image:"projects/crypto.png",
     description: "The project utilizes HTML, CSS, and JavaScript for development.",
     link: "https://mr-unick.github.io/crypto/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript","Frontend"],
    
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     image:"projects/weather.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://weather-app-orpin-delta.vercel.app/",
-    technologies: ["React.js", "HTML", "CSS","React"],
+    technologies: [ "HTML", "CSS","React","Frontend"],
     
 
   },
@@ -81,17 +81,17 @@ export const projects = [
     image:"projects/fast.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
     link: "https://mr-unick.github.io/flash-type/",
-    technologies: [ "HTML", "CSS","React"],
+    technologies: [ "HTML", "CSS","React","Frontend"],
     
 
   },
   {
     projectName: "DEVSPACE",
-    type: "Fullstack",
+    type: "MERN",
     image:"projects/devspace.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
     link: "https://example.com/devspace",
-    technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS"],
+    technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS","MERN"],
    
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
     image:"projects/quiz.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
     link: "https://example.com/notesapp",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS"],
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS","Frontend"],
   
   },
   {
@@ -109,7 +109,7 @@ export const projects = [
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
     link: "https://example.com/notesapp",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS"],
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS","MERN"],
   
   },
 ];
