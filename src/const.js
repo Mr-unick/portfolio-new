@@ -24,7 +24,7 @@ export const projects = [
     type: "Android",
     image:"projects/food.png",
     description: "Technologies include React Native, Redux, and Tailwind CSS.",
-    link: "https://example.com/food-delivery",
+    link: "https://github.com/Mr-unick/fooddelivery",
     technologies: ["React Native", "Redux", "Tailwind CSS","Android"],
   
   },
@@ -70,7 +70,7 @@ export const projects = [
     type: "MERN",
     image:"projects/chat.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
-    link: "https://login-client-brown.vercel.app/login",
+    link: "https://github.com/Mr-unick/chatapp",
     technologies: [ "HTML", "CSS","MERN","socket.io","React"],
     
 
@@ -90,7 +90,7 @@ export const projects = [
     type: "MERN",
     image:"projects/devspace.png",
     description: "Technologies used include MongoDB, Express.js, Ejs, Node.js, HTML, and CSS.",
-    link: "https://example.com/devspace",
+    link: "https://github.com/Mr-unick/devspace",
     technologies: ["MongoDB", "Express.js", "Ejs", "Node.js", "HTML", "CSS","MERN"],
    
   },
@@ -99,7 +99,7 @@ export const projects = [
     type: "React",
     image:"projects/quiz.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
-    link: "https://example.com/notesapp",
+    link: "https://github.com/Mr-unick/quizapp",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS","Frontend"],
   
   },
@@ -108,7 +108,7 @@ export const projects = [
     type: "Mern",
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
-    link: "https://example.com/notesapp",
+    link: "https://github.com/Mr-unick/note-app",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "HTML", "CSS","MERN"],
   
   },
