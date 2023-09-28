@@ -6,7 +6,7 @@ export const projects = [
     image:"projects/fake.png",
     type: "React",
     description: "Features include product display, cart functionality, Wishlist management, and order placement.",
-    link: "https://example.com/fakestore",
+    link: "http://mr-unick.github.io/fakestore",
     technologies: ["API", "React.js", "Redux", "Axios", "HTML", "CSS"],
     
   },
@@ -15,7 +15,7 @@ export const projects = [
     image:"projects/port.png",
     type: "React",
     description: "Technologies used include React.js, HTML, and CSS.",
-    link: "https://example.com/portfolio",
+    link: "http://mr-unick.github.io/portfolio",
     technologies: ["React", "HTML", "CSS"],
    
   },
@@ -33,7 +33,7 @@ export const projects = [
     type: "React",
     image:"projects/name.png",
     description: "Technologies used are HTML, CSS, and React.",
-    link: "https://example.com/name-it",
+    link: "https://mr-unick.github.io/name-it/",
     technologies: ["HTML", "CSS", "React"],
    
   },
@@ -42,7 +42,7 @@ export const projects = [
     type: "Frontend",
     image:"projects/crypto.png",
     description: "The project utilizes HTML, CSS, and JavaScript for development.",
-    link: "https://example.com/crypto-tracker",
+    link: "https://mr-unick.github.io/crypto/",
     technologies: ["HTML", "CSS", "JavaScript"],
    
   },
@@ -80,7 +80,7 @@ export const projects = [
     type: "React",
     image:"projects/fast.png",
     description: "The project uses React.js, HTML, CSS, and integrates with a weather API.",
-    link: "https://login-client-brown.vercel.app/login",
+    link: "https://mr-unick.github.io/flash-type/",
     technologies: [ "HTML", "CSS","React"],
     
 

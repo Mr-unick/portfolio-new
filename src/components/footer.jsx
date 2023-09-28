@@ -8,9 +8,9 @@ export const Socials=()=>{
   return(
     <div class="text-white flex flex-col m-5" >
     <h1 class="text-white font-bold text-3xl my-4">Socials</h1>
-            <span class="cursor-pointer"> <a href='https://github.com/Mr-unick' > </a>
+            <span class="cursor-pointer"> <a href='https://www.linkedin.com/in/nikhil-lende-148687244' > </a>
             <i class="fa fa-instagram  mr-2"/>mr_unick</span>
-            <span class="cursor-pointer"><a href='https://github.com/Mr-unick' > 
+            <span class="cursor-pointer"><a href='https://www.linkedin.com/in/nikhil-lende-148687244' > 
             <i class="fa fa-linkedin mr-2"/>Nikhil Lende</a></span>
             
             <div ><a href='https://github.com/Mr-unick'class="cursor-pointer flex flex-row " > 
