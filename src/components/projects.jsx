@@ -18,11 +18,11 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
      <span class="text-4xl font-extrabold mt-7 flex justify-center items-center flex-wrap" data-aos="fade-up"><span>My Creative</span> <span class="text-blue-700 mx-2">Portfolio</span> <span>Section</span></span>
 
 <div className="box text-white flex justify-center items-center flex-wrap py-8 px-5" data-aos="fade-up">
-  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("React")}>React</button>
-  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("React Native")}>Android</button>
-  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("Frontend")}>Frontend</button>
-  <button className='rounded-full bg-blue-500 px-5 py-1 m-2' onClick={()=>setkey("MERN")}>MERN</button>
-  <button className='rounded-full bg-blue-500 px-5 py-1 m-2 active:bg-black' onClick={()=>setkey("")}>All</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2 focus:bg-blue-800' onClick={()=>setkey("React")}>React</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2  focus:bg-blue-800' onClick={()=>setkey("React Native")}>Android</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2  focus:bg-blue-800' onClick={()=>setkey("Frontend")}>Frontend</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2  focus:bg-blue-800' onClick={()=>setkey("MERN")}>MERN</button>
+  <button className='rounded-full bg-blue-500 px-5 py-1 m-2  focus:bg-blue-800' onClick={()=>setkey("")}>All</button>
 </div>
 <div class=" flex justify-center items-center flex-wrap">
 

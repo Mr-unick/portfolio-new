@@ -26,10 +26,10 @@ const Nav = () => {
                   }}
             >
                 <div    class="w-full h-full  flex items-center justify-center flex-col  bg-gray-100">
-                    <a class="m-2" href='#landing'onClick={toggleDrawer}>Home</a>
-                    <a class="m-2" href='#projects' onClick={toggleDrawer}>Projects</a>
-                    <a class="m-2" href='#skills' onClick={toggleDrawer}>Skills</a>
-                    <a class="m-2" href='#contact' onClick={toggleDrawer}>Contact</a>
+                <button class="m-2 active:text-blue-800 font-bold"><a  href='#landing'onClick={toggleDrawer}>Home</a></button>
+                    <button class="m-2 active:text-blue-800 font-bold"><a  href='#projects' onClick={toggleDrawer}>Projects</a></button>
+                    <button class="m-2 active:bg-blue-800 font-bold"><a  href='#skills' onClick={toggleDrawer}>Skills</a></button>
+                   <button class="m-2 active:bg-blue-800 font-bold"> <a  href='#contact' onClick={toggleDrawer}>Contact</a></button>
                     <i onClick={toggleDrawer} class="fa fa-times absolute top-4 right-4  fa-fw"></i>
                 </div>
             </Drawer>

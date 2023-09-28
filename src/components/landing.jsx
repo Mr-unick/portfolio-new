@@ -41,7 +41,7 @@ import { Socials } from './footer';
 <div className="text-white flex ">
 
                   <button class="px-5 py-2 flex justify-center items-center rounded-full bg-blue-700 mt-4 md:m-4 font-bold">
-                  <a class="m-2" href='#contact'>Contact</a></button>
+                  <a class="m-2" href='#contact'>Contact Me</a></button>
 </div>
 
               </div>
