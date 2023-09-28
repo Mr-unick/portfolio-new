@@ -19,7 +19,7 @@ export const Skills = (props) => {
                     skill.skills.map(skill=>{
                         return(
                             <div id="card" class="flex justify-center items-center flex-col md:w-36 w-32   m-2 " >
-                            <img src={skill.skillData} class=" md:h-[100px] md:w-[100px] w-[50px] h-[50px] m-2" />
+                            <img src={skill.skillData} class=" md:h-[70px] md:w-[70px] w-[50px] h-[50px] m-2" />
                             <span class="font-bold text-gray-500 mt-2 w-full flex justify-center items-center">{skill.skillName}</span>
                             </div>
                         )
