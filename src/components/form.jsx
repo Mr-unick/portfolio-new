@@ -15,7 +15,7 @@ function ContactForm() {
   return (
     <div id="contact" class="flex flex-col justify-center items-center p-10 bg-gray-100 w-screen h-scrren">
         <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
-            <span>Lets Have A </span><span class="text-blue-700 mx-2">Cofee</span></span>
+            <span>Lets Have A </span><span class="text-blue-700 mx-2">Coffee</span></span>
     
         <form class="flex flex-col justify-center items-center" onSubmit={handleSubmit}  data-aos="fade-up">
 

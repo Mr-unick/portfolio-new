@@ -26,7 +26,7 @@ import { Socials } from './footer';
                                 .typeString("ANDROID DEVLOPER")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("FULLSTACK DEVLOPER")
+                                .typeString("FULLSTACK DEVELOPER")
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .typeString("WEB DESIGNER")
@@ -40,8 +40,8 @@ import { Socials } from './footer';
                 A dedicated full-stack developer with proficient knowledge in the MERN stack.</p>
 <div className="text-white flex ">
 
-                  <button class="px-5 py-2 flex justify-center items-center rounded-full bg-blue-700 mt-4 md:m-4">
-                  Contact Me</button>
+                  <button class="px-5 py-2 flex justify-center items-center rounded-full bg-blue-700 mt-4 md:m-4 font-bold">
+                  <a class="m-2" href='#contact'>Contact</a></button>
 </div>
 
               </div>
