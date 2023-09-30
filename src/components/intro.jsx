@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 export const Intro = (props) => {
   return(
-    <div id='intro' class="flex  justify-center items-center flex-col p-4  dark:bg-gray-800 dark:text-white ">
+    <div id='intro' class="flex  justify-center items-center flex-col p-4  dark:bg-gray-900 dark:text-white ">
         <span class=" font-bold text-4xl flex justify-center items-center my-5 flex-wrap" data-aos="fade-up" >
           <span>The</span> <span class="text-blue-700 mx-2 ">Creative Mind</span>
            <span>Behind Your Next </span><span class="text-blue-700 ml-2">Project</span></span>

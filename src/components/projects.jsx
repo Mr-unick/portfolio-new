@@ -14,7 +14,7 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
 
 
   return(
-    <div id="projects" class=" flex justify-center items-center flex-col  p-2 bg-gray-100 dark:text-white dark:bg-gray-800" >
+    <div id="projects" class=" flex justify-center items-center flex-col  p-2 bg-gray-100 dark:text-white dark:bg-gray-900" >
      <span class="text-4xl font-extrabold mt-7 flex justify-center items-center flex-wrap" data-aos="fade-up"><span>My Creative</span> <span class="text-blue-700 mx-2">Portfolio</span> <span>Section</span></span>
 
 <div className="box text-white flex justify-center items-center flex-wrap py-8 px-5" data-aos="fade-up">

@@ -5,7 +5,7 @@ import React from 'react'
 
 export const Skills = (props) => {
   return(
-   <div id='skills' class="flex justify-center items-center  flex-col dark:bg-gray-800 dark:text-white">
+   <div id='skills' class="flex justify-center items-center  flex-col dark:bg-gray-900 dark:text-white">
      <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
             <span> My</span><span class="text-blue-700 mx-2">SkillSet</span></span>
    <div id="cont" class="flex flex-col" >

@@ -9,7 +9,7 @@ import { Socials } from './footer';
  const Landing = (props) => {
   
   return(
-    <div id="landing" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full  h-screen dark:bg-gray-800 ">
+    <div id="landing" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full  h-screen dark:bg-gray-900 ">
       <div id="top" class="flex justify-center items-start md:items-center flex-col h-96 p-6 ">
     
               <span class="animate__animated animate__backInLeft text-5xl  font-extrabold md:text-4xl dark:text-white ">HEY, I'M NIKHIL LENDE</span>
