@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 export const Socials=()=>{
   return(
-    <div class="text-white flex flex-col m-5" >
+    <div class="text-white flex flex-col m-5 dark:text-gray-300" >
     <h1 class="text-white font-bold text-3xl my-4">Socials</h1>
             <span class="cursor-pointer"> <a href='https://www.linkedin.com/in/nikhil-lende-148687244' > </a>
             <i class="fa fa-instagram  mr-2"/>mr_unick</span>

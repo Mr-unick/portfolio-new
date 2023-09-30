@@ -13,7 +13,7 @@ const Nav = () => {
     return (
         <>
             
-            <i  onClick={toggleDrawer} class="fa fa-bars font-extrabold text-blue-600 fixed top-4 right-4 z-40 fa-2x fa-fw"></i>
+            <i  onClick={toggleDrawer} class="fa fa-bars font-extrabold text-blue-600 fixed top-5 right-5 z-40 fa-2x fa-fw"></i>
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}

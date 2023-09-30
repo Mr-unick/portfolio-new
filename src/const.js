@@ -105,7 +105,7 @@ export const projects = [
   },
   {
     projectName: "NOTESAPP",
-    type: "Mern",
+    type: "MERN",
     image:"projects/fake.png",
     description: "Technologies used include MongoDB, Express.js, React.js, Node.js, HTML, and CSS.",
     link: "https://github.com/Mr-unick/note-app",

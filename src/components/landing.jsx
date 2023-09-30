@@ -9,10 +9,10 @@ import { Socials } from './footer';
  const Landing = (props) => {
   
   return(
-    <div id="landing" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full bg-gray-50 h-screen ">
+    <div id="landing" class=" flex justify-center items-center flex-col rounded-b-8xl  w-full  h-screen dark:bg-gray-800 ">
       <div id="top" class="flex justify-center items-start md:items-center flex-col h-96 p-6 ">
     
-              <span class="animate__animated animate__backInLeft text-5xl  font-extrabold md:text-4xl">HEY, I'M NIKHIL LENDE</span>
+              <span class="animate__animated animate__backInLeft text-5xl  font-extrabold md:text-4xl dark:text-white ">HEY, I'M NIKHIL LENDE</span>
               <div class="animate__animated animate__backInRight  text-2xl md:text-3xl text-blue-700 font-bold mt-2 w-full flex  items-start md:justify-center   ">
                           <Typewriter
                           options={{
@@ -36,7 +36,7 @@ import { Socials } from './footer';
                         }}
                         />
               </div>
-              <p class="text-gray-500 mt-3 animate__animated animate__fadeInUp flex flex-wrap  w-[340px] ">
+              <p class="text-gray-500 mt-3 animate__animated animate__fadeInUp flex flex-wrap  w-[340px] dark:text-white ">
                 A dedicated full-stack developer with proficient knowledge in the MERN stack.</p>
 <div className="text-white flex ">
 
