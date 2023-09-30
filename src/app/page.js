@@ -35,7 +35,7 @@ const toggletheme=()=>{
 
   return (
     <div>
-      <button onClick={toggletheme} class=" bg-white rounded-full h-9 w-9 fixed top-5 left-5">
+      <button onClick={toggletheme} class=" bg-white rounded-full h-9 w-9 fixed top-5 left-5 z-30">
     {
     theme==='dark'?<img src='images/light.png' />:<img src='images/dark.png' />
     }  
