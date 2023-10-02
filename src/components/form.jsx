@@ -17,14 +17,14 @@ function ContactForm() {
         <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
             <span>Lets Have A </span><span class="text-blue-700 mx-2">Coffee</span></span>
     
-        <form class="flex flex-col justify-center items-center" onSubmit={handleSubmit}  data-aos="fade-up">
+        <form class="flex flex-col justify-center items-center dark:text-gray-700" onSubmit={handleSubmit}  data-aos="fade-up">
 
         
         <input
             id="name"
             type="text" 
             name="name"
-            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white rounded-lg outline-none m-2"
+            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white  rounded-lg outline-none m-2 dark:bg-gray-300"
             placeholder='Enter Name'
         />
         <ValidationError 
@@ -36,7 +36,7 @@ function ContactForm() {
             id="email"
             type="email" 
             name="email"
-            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white rounded-lg outline-none m-2"
+            class="  w-[320px] h-10 md:w-[420px] p-1 px-2 bg-white rounded-lg outline-none m-2 dark:bg-gray-300"
             placeholder='Enter Email'
         />
         <ValidationError 
@@ -47,7 +47,7 @@ function ContactForm() {
         <textarea
             id="message"
             name="message"
-            class="m-2 rounded-lg  w-[320px] h-[200px] md:w-[420px]  px-2 py-4 outline-0 bg-white resize-none"
+            class="m-2 rounded-lg  w-[320px] h-[200px] md:w-[420px]  px-2 py-4 outline-0 bg-white resize-none dark:bg-gray-300"
             placeholder='Type Something'
         />
         <ValidationError 

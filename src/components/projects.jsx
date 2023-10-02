@@ -30,7 +30,7 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
        ( keyword?data:projects).map((project)=>{
             return(
             
-              <div className="w-[300px]  border m-5 bg-white rounded-2xl p-3 dark:bg-gray-700 dark:border-0"  data-aos="fade-up">
+              <div className="w-[300px]  border m-5 bg-white rounded-2xl p-3 dark:bg-gray-800 dark:border-0"  data-aos="fade-up">
              
               <a href={project.link}>
               <img
@@ -41,7 +41,7 @@ const data=projects.filter(project=>project.technologies.includes(keyword))
               />
               </a>
             
-              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[23.5px] left-[82px] flex justify-center items-center dark:text-white dark:bg-gray-700  " > {project.type} </div>
+              <div class="relative  h-10 w-28 p-2 px-5 rounded-full bg-white text-black -top-[23.5px] left-[82px] flex justify-center items-center dark:text-white dark:bg-gray-800  " > {project.type} </div>
               <div className="p-4" data-aos="fade-up" >
                 <h1 className="inline-flex items-center text-lg font-semibold" >
                   {project.projectName} &nbsp; 
