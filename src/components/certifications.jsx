@@ -11,7 +11,7 @@ export const Certifications = (props) => {
           <div class="flex  items-start justify-start flex-col">
             <span class="text-2xl font-bold my-1">Web Development</span>
             <div class="flex justify-center items-center my-1 text-xs">@Internshala ,2022</div>
-            <span class="my-1">The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React, and Final Project modules.</span>
+            <span class="my-1 text-sm">The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React, and Final Project modules.</span>
           </div>
           <button class=" rounded-full w-[150px] bg-blue-700 text-white p-2 my-5 ">
           <a href='pdf/webdev.pdf' download="webdev.pdf">
