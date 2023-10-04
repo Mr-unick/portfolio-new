@@ -12,6 +12,7 @@ import Nav from '@/components/nav';
 import ContactForm from '@/components/form';
 import { Footer } from '@/components/footer';
 import { Skills } from '@/components/skills';
+import { Certifications } from '@/components/certifications';
 
 
 
@@ -42,13 +43,14 @@ const toggletheme=()=>{
       
      </button>
     
-   <Nav/>
+    <Nav/>
     <Landing/>
     <Intro/>
- <Projects/>
- <Skills/>
-<ContactForm/>
-<Footer/>
+    <Projects/>
+    <Skills/>
+    <Certifications/>
+    <ContactForm/>
+    <Footer/>
     </div>
   )
 }
