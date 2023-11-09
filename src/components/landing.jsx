@@ -11,7 +11,7 @@ import { Background, Parallax } from 'react-parallax';
   return(
     <Parallax
     strength={600}
-     className="md:h-screen h-[800px] w-screen flex justify-center items-center " 
+     className="h-screen  w-screen flex justify-center items-center  bg-gradient-to-b from-[#a16ef5] to-[#4b03ba]" 
      bgImage='./gggg.svg'
      
       >
@@ -41,7 +41,7 @@ import { Background, Parallax } from 'react-parallax';
               }}
               />
     </div>
-    <p class="text-gray-200 mt-3 animate__animated animate__fadeInUp flex flex-wrap  w-[340px] dark:text-gray-400 md:text-center text-start md:my-4 w-full">
+    <p class="text-gray-200 mt-3 animate__animated animate__fadeInUp flex flex-wrap   dark:text-gray-400 md:text-center text-start md:my-4 w-full">
       A dedicated full-stack developer with proficient knowledge in the MERN stack.</p>
     <div className="text-white flex iteams-start md:items-center  w-full">
 
