@@ -14,10 +14,10 @@ function ContactForm() {
   }
   return (
     <div id="contact" class="flex flex-col justify-center items-center p-10 bg-gray-100 w-screen h-scrren dark:bg-gray-900 dark:text-white">
-        <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
+        <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up" data-aos-duration="400">
             <span>Lets Have A </span><span class="text-blue-700 mx-2">Coffee</span></span>
     
-        <form class="flex flex-col justify-center items-center dark:text-gray-700" onSubmit={handleSubmit}  data-aos="fade-up">
+        <form class="flex flex-col justify-center items-center dark:text-gray-700" onSubmit={handleSubmit}  data-aos="fade-up" data-aos-duration="400">
 
         
         <input

@@ -1,5 +1,14 @@
 
 export const projects = [
+  {
+    projectName: "Modern Login",
+    image:"projects/modernlogin.png",
+    type: "Nextjs",
+    description: "Animated Modern Login signup Page,with nextjs",
+    link: "https://modern-login-wine.vercel.app/",
+    technologies: ["React.js", "HTML", "CSS","Frontend","Nextjs"],
+    
+  },
   
   {
     projectName: "FAKESTORE ",

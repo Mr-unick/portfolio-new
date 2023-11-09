@@ -6,13 +6,13 @@ import React from 'react'
 export const Skills = (props) => {
   return(
    <div id='skills' class="flex justify-center items-center  flex-col dark:bg-gray-900 dark:text-white">
-     <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up">
+     <span class="text-4xl font-extrabold my-8 flex justify-center items-center flex-wrap" data-aos="fade-up" data-aos-duration="700">
             <span> My</span><span class="text-blue-700 mx-2">SkillSet</span></span>
    <div id="cont" class="flex flex-col" >
    {
     Skillsdata.map((skill)=>{
         return(
-            <div class="flex justify-center items-center flex-col w-screen   p-4   m-2 " data-aos="fade-up">
+            <div class="flex justify-center items-center flex-col w-screen   p-4   m-2 " data-aos="fade-up" data-aos-duration="700">
                 <h1 class="text-2xl  font-extrabold p-2  w-screen flex justify-center items-center text-gray-500 dark:text-gray-400" >{skill.categoryName}</h1>
                 <div class="flex flex-wrap justify-center items-center" >
                 {

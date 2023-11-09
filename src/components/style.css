@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Teko&display=swap');
+
 #landing{
-  background-image: url("../../public/Rect\ Light.svg");
+
   background-size: cover;
   background-position: center;
 }
-
+.texts{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
 .nav{
 background: rgba(255, 255, 255, 0.08);
 position: fixed;

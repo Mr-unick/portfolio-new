@@ -18,8 +18,8 @@ import { Certifications } from '@/components/certifications';
 
 export default function Home() {
 
-
   const[theme,settheme]=useState("Light")
+
  
   useEffect(()=>{
    Aos.init({duration:2000})
@@ -29,21 +29,11 @@ export default function Home() {
     document.documentElement.classList.remove("dark");
    }
   },[theme])
-
-const toggletheme=()=>{
-  settheme(theme==="dark"?"Light":"dark")
-}
+  
 
   return (
     <div>
-      <button onClick={toggletheme} class=" bg-white rounded-full h-8 w-8 fixed top-5 left-5 z-[9999]">
-    {
-    theme==='dark'?<img src='images/light.png' />:<img src='images/dark.png' />
-    }  
-      
-     </button>
-    
-    <Nav/>
+    <Nav settheme={settheme} theme={theme}/>
     <Landing/>
     <Intro/>
     <Projects/>

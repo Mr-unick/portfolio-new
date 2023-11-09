@@ -14,13 +14,13 @@ export const Intro = (props) => {
         {
             intro.map(intro=>{
                 return(
-                    <div className=" md:w-[210px] w-[270px] rounded-md  m-5 mx-10 hover:cursor-pointer "  data-aos="fade-up" >
+                    <div className=" md:w-[210px] w-[270px] rounded-md  m-5 mx-10 hover:cursor-pointer "  data-aos="fade-up" data-aos-duration="700" >
                     <img
                       src={intro.image}
                       alt="Laptop"
                       className="h-[240px] w-full rounded-2xl object-cover"
                     />
-                    <div className="p-4"  data-aos="fade-up">
+                    <div className="p-4"  data-aos="fade-up" data-aos-duration="800">
                       <h1 className="text-lg font-semibold dark:text-gray-300">{intro.role}</h1>
                       <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
                        {intro.description}
